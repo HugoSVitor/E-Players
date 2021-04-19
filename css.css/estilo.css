@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+header {
+    background-color: #1E1C21;
+    height: 65px;
+    position: fixed;
+    z-index: 1;
+    width: 100%;
+    top: 0px;
+}
+
+.container_header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+}
+
+.img_logo {
+    align-items: center;
+    width: 200px;
+    height: 25px;
+}
+
+.info_header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 591px;
+    height: 100%;
+}
+
+.info_header a {
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: 'Roboto', sans-serif;
+    font-size: 17px;
+}
+
+.conteudo_banner {
+    margin-top: 65px;
+    height: 505px;
+    width: 100%;
+    display:flex;
+    background: -moz-linear-gradient(left, rgba(152,30,50,1) 0%, rgba(152,30,50,1) 27%, rgba(152,30,50,1) 37%, rgba(0,0,0,1) 52%, rgba(0,0,0,1) 57%, rgba(0,0,0,1) 64%, rgba(0,0,0,1) 72%, rgba(0,0,0,1) 94%, rgba(0,0,0,1) 100%);
+    justify-content: space-evenly;
+    padding-top: 60px;
+    padding-right: 50px
+}
+
+.conteudo_banner img {
+    height: 600px;
+    width: auto;
+}
+
+.textos_banner {
+    padding-top: 60px;
+    height: 190px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+h1 {
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-size: 55px;
+    width: 360px
+}
+
+.textos_banner span {
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    width: 360px;
+    text-align: center;
+    margin: 20px 0;
+}
+
+.textos_banner a {
+    background-color: #A8263D;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    width: 200px;
+    height: 70px;
+    font-size: 20px;
+    text-align: center;
+    padding-top: 1px;
+}
+
+.secao_jogos {
+    height: 80px;
+    width: 100%;
+    background-color: #1E1C21;
+    padding: 0 100px;
+}
+
+.container_jogos {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: auto;
+    height: 80px;
+}
+
+.logo_corrida {
+    width: 100px;
+    height: auto;
+}
+
+.logo_lol {
+    width: 130px;
+    height: auto;
+}
+
+.logo_cs {
+    width: 140px;
+    height: auto;
+}
+
+.logo_valorant {
+    width: 140px;
+    height: auto;
+}
+
+.logo_fifa {
+    width: 100px;
+    height: auto;
+}
