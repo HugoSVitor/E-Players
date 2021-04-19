@@ -24,6 +24,7 @@ header {
     justify-content: space-between;
     align-items: center;
     height: 100%;
+    padding: 0 75px;
 }
 
 .img_logo {
@@ -89,22 +90,24 @@ h1 {
 }
 
 .textos_banner a {
+    display: flex;
     background-color: #A8263D;
     text-decoration: none;
     text-transform: uppercase;
     font-family: 'Roboto', sans-serif;
     color: white;
     width: 200px;
-    height: 70px;
+    padding: 10px 36px;
     font-size: 20px;
     text-align: center;
-    padding-top: 1px;
+    font-weight: 700px;
+    border-radius: 10px;
 }
 
 .secao_jogos {
     height: 80px;
     width: 100%;
-    background-color: #1E1C21;
+    background-color: black;
     padding: 0 100px;
 }
 
@@ -139,4 +142,41 @@ h1 {
 .logo_fifa {
     width: 100px;
     height: auto;
+}
+
+.container_info {
+    height: 600px;
+    width: 100%;
+    background-image: url(../assets/bg-lol.jpg);
+    background-size: 100%;
+    filter: grayscale(70%);
+}
+
+.retangulo_curvado {
+    clip-path: polygon(0 8%, 76% 0, 100% 0, 100% 89%, 32% 100%, 0 100%);
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    display: flex;
+    padding: 120px 100px;
+    justify-content: space-around;
+}
+
+.retangulo_curvado h2 {
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    margin-bottom: 15px;
+    font-size: 30px;
+    font-weight: 700;
+    width: 400px;
+}
+
+.retangulo_curvado p {
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    text-align: left;
+    font-weight: 100;
+    width: 320px;
+    margin-bottom: 15px;
+    font-size: 17px;
 }
