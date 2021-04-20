@@ -218,19 +218,31 @@ h1 {
 
 .container_noticias {
     background-color: #1E1C21;
-    height: 600px;
+    height: 750px;
+    padding: 50px 100px;
+    display: flex;
+    justify-content: space-around;
 }
 
 .noticias {
     display: flex;
+    flex-direction: column;
+    display: inline-block;
 }
 
 .noticias h2 {
     color: white;
     font-family:'Roboto', sans-serif;
+    margin-bottom: 20px;
 }
 
-
+.bloco_dos_artigos {
+    height: 500px;
+    width: 700px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
 
 .artigo img {
     height: 124px;
@@ -246,16 +258,71 @@ h1 {
     text-align: justify;
     justify-content: center;
     align-items: center;
+    margin-bottom: 30px;
 }
 
 .artigo_noticia h3 {
     color: white;
     width: 160px;
     margin-bottom: 10px;
+    font-family:'Roboto', sans-serif;
 }
 
 .artigo_noticia p {
     color: white;
     width: 160px;
+    font-family:'Roboto', sans-serif;
+    font-size: 15px;
+    margin-bottom: 10px;
 }
 
+.proximos_jogos {
+    height: 603px;
+    width: 209px;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-around;
+    padding-left: 10px;
+}
+
+.prox_jogos {
+    color: white;
+    font-family:'Roboto', sans-serif;
+    margin-bottom: 20px;
+    
+}
+
+.prox_jogos_fla_sk {
+    display: flex;
+    flex-wrap: wrap;
+    width: 209px;
+    align-items: center;
+    width: 110px;
+    text-align: center;
+}
+
+.prox_jogos_fla_sk span {
+    color: white;
+    font-family:'Roboto', sans-serif;
+    font-weight: bold;
+    font-size: 10px;
+}
+
+.prox_jogos_fla_sk img {
+    height: auto;
+    width: 30px;
+}
+
+.vs {
+    color: white;
+    font-family:'Roboto', sans-serif;
+    font-weight: lighter;
+}
+
+footer {
+    background-color: black;
+    height: 250px;
+}
