@@ -49,6 +49,8 @@ header {
     font-size: 17px;
 }
 
+/*Main*/ 
+
 .conteudo_banner {
     margin-top: 65px;
     height: 505px;
@@ -324,9 +326,100 @@ h1 {
     font-weight: lighter;
 }
 
+/*Footer*/ 
+
 footer {
     background-color: black;
     height: 250px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+footer h3{
+    color: white;
+    font-family: 'Roboto', sans-serif;
+}
+
+.footer_bolinha {
+    width: 10px;
+    height: 10px;
+    background-color: white;
+    border-radius: 100%;
+}
+
+.bolinha_links {
+    display: flex;
+    align-items: center;
+    margin: 5px 0;
+}
+
+.footer_links {
+    margin: 0 20px;
+}
+
+.footer_links a {
+    color: #fff;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    font-size: small;
+    margin-left: 5px;
+}
+
+.links_uteis {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer_logo {
+    width: 400px;
+    height: auto;
+    margin: 0 40px;
+}
+
+.paginas {
+    display: flex;
+    flex-direction: column;
+}
+
+.mensagem_botao {
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-size: 9px;
+}
+
+.botao_cadastrar {
+    background-color: #A8263D;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    text-decoration: none;
+}
+
+.redes_sociais {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.siganos {
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    margin-right: 5px;
+}
+
+.instagram {
+    width: 40px;
+    height: auto;
+}
+
+.facebook {
+    width: 40px;
+    height: auto;
+}
+
+.youtube {
+    width: 40px;
+    height: auto;
 }
  /*Cadastro de Jogador*/ 
   /*Cadastro do Time*/ 
