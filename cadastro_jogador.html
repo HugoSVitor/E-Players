@@ -5,9 +5,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Cadastro Equipe</title>
-    <link rel="stylesheet" href="css.css/cadastro_estilo.css">
-
+    <title>Cadastro Jogador</title>
+    <link rel="stylesheet" href="css.css/cadastro_jogador_estilo.css">
 </head>
 
 <body>
@@ -24,44 +23,50 @@
         </div>
     </header>
 
-
     <main>
-        <div class="banner_cadastro_times">
-            <h1>Cadastro de Times</h1>
+        <div class="banner_cadastro_jogador">
+            <h1>Cadastro de Jogador</h1>
         </div>
         <div class="conteudo_main">
             <section class="box_cadastro">
-                <div class="nome_equipe">
-                    <span>Nome da Equipe</span>
+                <div class="span_input">
+                    <span>Nome do Jogador</span>
                     <input type="text">
                 </div>
-                <div class="emblema">
-                    <span>Emblema</span>
+                <div class="span_input">
+                    <span>E-mail</span>
+                    <input type="text">
+                </div>
+                <div class="span_input">
+                    <span>Senha</span>
+                    <input type="text">
+                </div>
+                <div class="equipe_select">
+                    <span>Equipe</span>
                     <select name="Escolher imagem">Escolher imagem</select>
                 </div>
                 <button>Cadastrar</button>
             </section>
 
-            <h2>Lista de Times</h2>
-            <section class="box_equipe">
-                <div class="equipe_emblema">
-                    <h3>Nome da Equipe</h3>
-                    <h3>Emblema</h3>
+            <h2>Lista de Jogadores</h2>
+            <section class="box_jogadores">
+                <div class="jogador_equipe">
+                    <h3>Nome do Jogador</h3>
+                    <h3>Equipe</h3>
                 </div>
                 <div class="nome_logo">
+                    <span>Thiago</span>
                     <span>SENAI Cythechs</span>
-                    <img src="assets/fla-logo.png" alt="Logo Flamengo">
                 </div>
                 <div class="nome_logo">
-                    <span>Flamengo</span>
-                    <img src="assets/fla-logo.png" alt="Logo Flamengo">
+                    <span>Ordilei</span>
+                    <span>SENAI Cythechs</span>
                 </div>
             </section>
         </div>
+        
 
-    
     </main>
-
 
     <footer>
         <div class="footer_links">
@@ -125,6 +130,7 @@
             </div>
         </div>
     </footer>
-    
+
 </body>
+
 </html>

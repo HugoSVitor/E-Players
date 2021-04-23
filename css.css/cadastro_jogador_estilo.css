@@ -1,0 +1,287 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+header {
+    background-color: #1E1C21;
+    height: 65px;
+    position: fixed;
+    z-index: 1;
+    width: 100%;
+    top: 0px;
+}
+
+.container_header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+    padding: 0 75px;
+}
+
+.img_logo {
+    align-items: center;
+    width: 200px;
+    height: 25px;
+}
+
+.info_header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 591px;
+    height: 100%;
+}
+
+.info_header a {
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: 'Roboto', sans-serif;
+    font-size: 17px;
+}
+
+/*Main*/ 
+
+.conteudo_main {
+    background-color: #1E1C21;
+    height: 1347px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner_cadastro_jogador {
+    height: 350px;
+    width: 100%;
+    margin-top: 65px;
+    background: linear-gradient(0deg, rgba(206, 173, 80, 0.42), rgba(206, 173, 80, 0.42)), url(../assets/galio_banner.jpg);
+    object-fit: cover;
+    object-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+h1 {
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bolder;
+}
+
+.box_cadastro {
+    height: 629px;
+    width: 770px;
+    background: linear-gradient(180deg, #000000 0%, rgba(83, 83, 83, 0.577381) 25%, rgba(196, 196, 196, 0) 87.5%);
+    box-shadow: 1px 1px 20px 4px #000000;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 70px 100px;
+}
+
+.span_input {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+
+.span_input span {
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    margin-bottom: 5px;
+    font-size: larger;
+}
+
+
+.span_input input {
+    width: 600px;
+    height: 30px;
+    margin-bottom: 30px;
+}
+
+.equipe_select {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+    padding-right: 527px;
+}
+
+.equipe_select span {
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    margin-bottom: 5px;
+    font-size: larger;
+    margin-top: 50px;
+}
+
+.conteudo_main button {
+    color: white;
+    font-size: larger;
+    font-family: 'Roboto', sans-serif;
+    background-color: #CEAD50;
+    width: 200px;
+    height: 30px;
+    margin-top: 20px;
+}
+
+h2 {
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bolder;
+    margin-top: 200px;
+    margin-bottom: 50px;
+}
+
+.box_jogadores {
+    height: 175px;
+    width: 770px;
+    background-color: #1E1C21;
+    border-width: 1px;
+    border-style: solid;
+    border-color: white;
+}
+
+.jogador_equipe {
+    background-color: black;
+    border-width: 1px;
+    border-style: solid;
+    border-color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 60px;
+    padding: 0 20px;
+}
+
+.jogador_equipe h3 {
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bolder;
+}
+
+.nome_logo {
+    width: 100%;
+    height: 57.5px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.nome_logo span {
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-weight: normal;
+}
+
+.nome_logo img {
+    width: 30px;
+    height: auto;
+}
+
+
+
+
+/*Footer*/ 
+
+footer {
+    background-color: black;
+    height: 250px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+footer h3{
+    color: white;
+    font-family: 'Roboto', sans-serif;
+}
+
+.footer_bolinha {
+    width: 10px;
+    height: 10px;
+    background-color: white;
+    border-radius: 100%;
+}
+
+.bolinha_links {
+    display: flex;
+    align-items: center;
+    margin: 5px 0;
+}
+
+.footer_links {
+    margin: 0 20px;
+}
+
+.footer_links a {
+    color: #fff;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    font-size: small;
+    margin-left: 5px;
+}
+
+.links_uteis {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer_logo {
+    width: 400px;
+    height: auto;
+    margin: 0 40px;
+}
+
+.paginas {
+    display: flex;
+    flex-direction: column;
+}
+
+.mensagem_botao {
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-size: 9px;
+}
+
+.botao_cadastrar {
+    background-color: #CEAD50;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    text-decoration: none;
+}
+
+.redes_sociais {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.siganos {
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    margin-right: 5px;
+}
+
+.instagram {
+    width: 40px;
+    height: auto;
+}
+
+.facebook {
+    width: 40px;
+    height: auto;
+}
+
+.youtube {
+    width: 40px;
+    height: auto;
+}
